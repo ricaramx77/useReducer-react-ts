@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useReducer } from 'react';
 import { DUMMY_PRODUCTS } from '../dummy-products.ts';
 
-// Define types for the product, cart item, action, and state
+//Definimos los tipos para Product, cart item, action y state
 export interface Product {
   id: string;
   title: string;

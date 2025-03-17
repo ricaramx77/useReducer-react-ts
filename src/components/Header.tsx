@@ -1,6 +1,6 @@
 import React, { JSX, useContext, useRef } from 'react';
 import { CartContext, CartContextType } from '../store/shopping-cart-context'; // Tipos del contexto
-import CartModal, { CartModalHandle } from './CartModal'; // Asegúrate de que `CartModal` exporte el tipo `CartModalHandle`
+import CartModal, { CartModalHandle } from './CartModal';
 
 export default function Header(): JSX.Element {
   // Definimos la referencia para `CartModal`

@@ -1,5 +1,5 @@
 import { JSX, useContext } from 'react';
-import { CartContext, CartContextType } from '../store/shopping-cart-context'; // Asegúrate de que `CartContext` esté tipado
+import { CartContext, CartContextType } from '../store/shopping-cart-context';
 
 // Definimos los tipos para las props del componente
 interface ProductProps {

@@ -1,7 +1,7 @@
 import { JSX, ReactNode } from 'react';
 
 interface ShopProps {
-  children: ReactNode; // Permite que `children` sea cualquier nodo válido de React
+  children: ReactNode; 
 }
 
 export default function Shop({ children }: ShopProps): JSX.Element {
